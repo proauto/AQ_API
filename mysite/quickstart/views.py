@@ -15,10 +15,3 @@ class UserViewSet(viewsets.ModelViewSet):
 class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
-
-@api_view(['GET'])
-def FaceBookView(request):
-        if request.GET['hub.verify_token'] == 'WebHook':
-            return Response(request.GET['hub.challenge'])
-        else:
-            return Response('Error, invalid token')
