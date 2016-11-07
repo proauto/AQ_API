@@ -32,3 +32,5 @@ class Post(models.Model):
 
     def get_next_post(self):
         return self.get_next_by_modify_date()
+
+

@@ -3,3 +3,4 @@ venv/
 *.pyc
 .idea/
 mysite/db.sqlite3
+mysite/stylesheets
