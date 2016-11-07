@@ -2,3 +2,4 @@ mysite/static/
 venv/
 *.pyc
 .idea/
+mysite/db.sqlite3
