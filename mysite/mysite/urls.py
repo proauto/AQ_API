@@ -30,4 +30,5 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^bookmark/', include('bookmark.urls', namespace='bookmark')),
     url(r'^blog/', include('blog.urls', namespace='blog')),
+    url(r'^facebook/', include('facebook.urls', namespace='facebook')),
 ]

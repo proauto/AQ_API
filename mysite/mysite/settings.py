@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'bookmark.apps.BookmarkConfig',
     'blog.apps.BlogConfig',
+    'facebook.apps.FacebookConfig'
 ]
 
 MIDDLEWARE = [
